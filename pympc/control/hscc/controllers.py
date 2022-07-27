@@ -3,10 +3,10 @@ import numpy as np
 import gurobipy as grb
 
 # internal inputs
-from build_mip_mld import bild_mip_mld
-from build_mip_bm import bild_mip_bm
-from build_mip_ch import bild_mip_ch
-from build_mip_pf import bild_mip_pf
+from pympc.control.hscc.build_mip_mld import bild_mip_mld
+from pympc.control.hscc.build_mip_bm import bild_mip_bm
+from pympc.control.hscc.build_mip_ch import bild_mip_ch
+from pympc.control.hscc.build_mip_pf import bild_mip_pf
 
 class HybridModelPredictiveController(object):
 
